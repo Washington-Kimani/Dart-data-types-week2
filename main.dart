@@ -4,7 +4,7 @@ main (){
 
   print("My name is $name");
   //Int data type for age
-  Int age = 22;
+  int age = 22;
 
   print("I am $age years old");
 
@@ -14,15 +14,15 @@ main (){
 
   print("My hobbies are as follows");
   hobbies.forEach((hobby){
-    print(hobby);
+    print("\t $hobby");
   });
   //Map data type for friends ages
   Map<String, int> ages = {'John': 21, 'Bryan': 26, 'Simon': 33,};
   print("My friends' ages are: $ages");
   //Boolean data type for me being a male
-  Bool male = true;
+  bool male = true;
   if(male){
-    print("$name is a male");
+    print("$name is a male.");
   }else{
     print("Gender is unknown");
   }
