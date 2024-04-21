@@ -1,4 +1,4 @@
-main (){
+main() {
   //String data type for my name
   String name = "Washington Kimani";
 
@@ -11,19 +11,21 @@ main (){
   //List data type for my hobbies
   List hobbies = ["coding", "singing", "playing guitar", "star gazing"];
 
-
   print("My hobbies are as follows");
-  hobbies.forEach((hobby){
+  hobbies.forEach((hobby) {
     print("\t $hobby");
   });
   //Map data type for friends ages
-  Map<String, int> ages = {'John': 21, 'Bryan': 26, 'Simon': 33,};
+  Map<String, int> ages = {
+    'John': 21,
+    'Bryan': 26,
+    'Simon': 33,
+  };
   print("My friends' ages are: $ages");
   //Boolean data type for me being a male
   bool male = true;
-  if(male){
+  if (male) {
     print("$name is a male.");
-  }else{
-    print("Gender is unknown");
   }
+  print("Gender is unknown");
 }
